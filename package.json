@@ -8,7 +8,23 @@
     "lib",
     "dist"
   ],
+  "author": {
+    "name": "maxoyed",
+    "email": "maxoyed@gmail.com",
+    "url": "https://github.com/maxoyed"
+  },
+  "contributors": [
+    "maxoyed <maxoyed@gmail.com>"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxoyed/koishi-plugin-spark-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxoyed/koishi-plugin-spark-assistant/issues"
+  },
+  "homepage": "https://github.com/maxoyed/koishi-plugin-spark-assistant",
   "scripts": {},
   "keywords": [
     "chatbot",
@@ -17,5 +33,21 @@
   ],
   "peerDependencies": {
     "koishi": "^4.15.5"
+  },
+  "devDependencies": {
+    "koishi-plugin-spark-service": "^0.0.1"
+  },
+  "koishi": {
+    "description": {
+      "zh": "讯飞星火助手"
+    },
+    "service": {
+      "required": [
+        "spark"
+      ]
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
